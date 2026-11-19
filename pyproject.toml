@@ -1,7 +1,7 @@
 [project]
 name = "agentic-document-preprocessing"
 version = "0.1.0"
-description = "Add your description here"
+description = "Agentic tender document preprocessing for naive RAG"
 readme = "README.md"
 authors = [
     { name = "Shabarees", email = "shabarees90@gmail.com" }
@@ -15,3 +15,8 @@ agentic-document-preprocessing = "agentic_document_preprocessing:main"
 [build-system]
 requires = ["uv_build>=0.12.15,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.6",
+]
